@@ -79,7 +79,7 @@ recent_minis_dates = minis_dates[:5]
 recent_minis = list()
 
 for i in range(5):
-    recent_minis.append(f"**{i+1}. [{recent_minis_titles[i]}]({recent_minis_urls[i]})** | Date Added: {recent_minis_dates[i]} \n")
+    recent_minis.append(f"**{i+1}. [{recent_minis_titles[i]}]({recent_minis_urls[i]})** | Date Added: {recent_minis_dates[i]} \n\n")
 
 
 minis_heading = "## Minis on LearnWeb3 \n"
@@ -94,7 +94,7 @@ recent_lessons_dates = lessons_dates[:5]
 recent_lessons = list()
 
 for i in range(5):
-    recent_lessons.append(f"**{i+1}. [{recent_lessons_titles[i]}]({recent_lessons_urls[i]})** | Date Added: {recent_lessons_dates[i]} \n")
+    recent_lessons.append(f"**{i+1}. [{recent_lessons_titles[i]}]({recent_lessons_urls[i]})** | Date Added: {recent_lessons_dates[i]} \n\n")
 
 
 lessons_heading = "## Lessons on LearnWeb3 \n"
@@ -110,11 +110,11 @@ if degrees_count > 5:
 
 
     for i in range(5):
-        recent_degrees.append(f"**{i+1}. [{recent_degrees_titles[i]}]({recent_degrees_urls[i]})** | Date Added: {recent_degrees_dates[i]} \n")
+        recent_degrees.append(f"**{i+1}. [{recent_degrees_titles[i]}]({recent_degrees_urls[i]})** | Date Added: {recent_degrees_dates[i]} \n\n")
 
 else:
     for i in range(degrees_count):
-        recent_degrees.append(f"**{i+1}. [{degrees_titles[i]}]({degrees_urls[i]})** | Date Added: {degrees_dates[i]} \n")
+        recent_degrees.append(f"**{i+1}. [{degrees_titles[i]}]({degrees_urls[i]})** | Date Added: {degrees_dates[i]} \n\n")
 
 
 
