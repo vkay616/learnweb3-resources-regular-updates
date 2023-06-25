@@ -4,7 +4,7 @@ This repository scraps all the resources (Minis, Lessons and Degrees) available 
 ## Minis on LearnWeb3 
 Total Number of Minis available: 56 
  #### First 5 Minis 
-**1. [Some Title for Testing whether GitHub Actions workflow is working or not!](https://github.com/)** | Date Added: June 26th, 2023 
+**1. [An Introduction to Sui Technology](https://learnweb3.io/minis/an-introduction-to-sui-technology/)** | Date Added: June 24th, 2023 
 
 **2. [3 Use Cases for Wallet Tracking Analysis](https://learnweb3.io/minis/3-use-cases-for-wallet-tracking-analysis/)** | Date Added: June 23rd, 2023 
 
