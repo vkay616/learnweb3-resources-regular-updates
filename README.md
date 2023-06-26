@@ -1,8 +1,8 @@
 # LearnWeb3 Platform Resource Updates 
 This repository scraps all the resources (Minis, Lessons and Degrees) available on [LearnWeb3](https://learnweb3.io) platform every hour and updates the README file with the total number of resources, the first 5 resources available from each category. 
-#### **Total Number of Resources on LearnWeb3: 128** 
+#### **Total Number of Resources on LearnWeb3: 129** 
 ## Minis on LearnWeb3 
-Total Number of Minis available: 56 
+Total Number of Minis available: 57 
  #### First 5 Minis 
 **1. [An Introduction to Sui Technology](https://learnweb3.io/minis/an-introduction-to-sui-technology/)** | Date Added: June 24th, 2023 
 
