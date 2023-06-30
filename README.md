@@ -34,3 +34,14 @@ Total Number of Degrees available: 2
 
 **2. [AI Developer Degree](https://learnweb3.io/degrees/ai-developer-degree/)** | Date Added: June 21st, 2023 
 
+## Leaderboard (Top 5) 
+**1. [haardikkk](https://github.com/haardikk21)**
+
+**2. [Frenzoid](https://github.com/Frenzoid)**
+
+**3. [yanukadeneth99](https://github.com/yanukadeneth99)**
+
+**4. [Shiva Sai](https://github.com/Shiva-Sai-ssb)**
+
+**5. [@exyreams](https://github.com/exyreams)**
+
