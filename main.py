@@ -63,7 +63,7 @@ def get_resources(url, course_type):
 
 # For getting the top 5 people in the leaderboard
 
-chrome_options = Options()
+chrome_options = webdriver.ChromeOptions()
 
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
