@@ -63,7 +63,7 @@ def get_resources(url, course_type):
 
 # For getting the top 5 people in the leaderboard
 
-chrome_options = webdriver.ChromeOptions()
+chrome_options = Options()
 
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
@@ -92,11 +92,16 @@ profile_links = [f'https://learnweb3.io/u/{username}' for username in usernames]
 for link in profile_links:
     driver.get(link)
 
-    github = WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/div[1]/div[1]/div/div[4]/div/div[1]/div[2]/div/a[1]'))
-    )
+    try:
+        github = WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, '//*[@id="__next"]/div/div[1]/div[1]/div/div[4]/div/div[1]/div[2]/div/a[1]'))
+        )
 
-    github_links.append(github.get_attribute('href'))
+        github_links.append(github.get_attribute('href'))
+    except:
+        github_links.append('')
+
+    
 
 driver.close()
 
@@ -120,7 +125,7 @@ total_count = minis_count + lessons_count + degrees_count
 
 heading = "# LearnWeb3 Platform Resource Updates \n"
 
-description = f"This repository scraps all the resources (Minis, Lessons and Degrees) available on [LearnWeb3]({PREFIX_URL}) platform every hour and updates the README file with the total number of resources, the first 5 resources available from each category. \n"
+description = f"This repository scraps all the resources (Minis, Lessons and Degrees) available on [LearnWeb3]({PREFIX_URL}) platform every day and updates the README file with the total number of resources, the first 5 resources available from each category, and the top 5 people in the leaderboard. \n"
 
 total_resources_heading = f"#### **Total Number of Resources on LearnWeb3: {total_count}** \n"
 

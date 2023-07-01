@@ -1,5 +1,5 @@
 # LearnWeb3 Platform Resource Updates 
-This repository scraps all the resources (Minis, Lessons and Degrees) available on [LearnWeb3](https://learnweb3.io) platform every hour and updates the README file with the total number of resources, the first 5 resources available from each category. 
+This repository scraps all the resources (Minis, Lessons and Degrees) available on [LearnWeb3](https://learnweb3.io) platform every day and updates the README file with the total number of resources, the first 5 resources available from each category, and the top 5 people in the leaderboard. 
 #### **Total Number of Resources on LearnWeb3: 130** 
 ## Minis on LearnWeb3 
 Total Number of Minis available: 58 
@@ -41,7 +41,7 @@ Total Number of Degrees available: 2
 
 **3. [yanukadeneth99](https://github.com/yanukadeneth99)**
 
-**4. [Shiva Sai](https://github.com/Shiva-Sai-ssb)**
+**4. [SahilPanhotra](https://discordapp.com/users/972421260627836968)**
 
-**5. [@exyreams](https://github.com/exyreams)**
+**5. [Shiva Sai](https://github.com/Shiva-Sai-ssb)**
 
